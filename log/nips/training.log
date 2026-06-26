@@ -1,0 +1,103 @@
+2025-08-05 10:06:28,347 - INFO - Starting training for dataset: nips
+2025-08-05 10:06:28,348 - INFO - Using configuration: nips.yaml
+2025-08-05 10:06:28,856 - INFO - 
+=== Configuration ===
+2025-08-05 10:06:28,856 - INFO - reviewer_profile_bert: dataset/nips/NIPS_reviewer_profile_bert.jsonl
+2025-08-05 10:06:28,856 - INFO - reviewer_write_bert: dataset/nips/NIPS_reviewer_write_bert.jsonl
+2025-08-05 10:06:28,856 - INFO - reviewer_review_bert: dataset/nips/NIPS_reviewer_review_bert.jsonl
+2025-08-05 10:06:28,856 - INFO - submission_bert: dataset/nips/NIPS_submission_bert.jsonl
+2025-08-05 10:06:28,856 - INFO - train: dataset/nips/train.txt
+2025-08-05 10:06:28,856 - INFO - valid: dataset/nips/valid.txt
+2025-08-05 10:06:28,856 - INFO - test: dataset/nips/test.txt
+2025-08-05 10:06:28,856 - INFO - reviewer: dataset/nips/NIPS_reviewers.jsonl
+2025-08-05 10:06:28,856 - INFO - submission: dataset/nips/NIPS_papers.jsonl
+2025-08-05 10:06:28,856 - INFO - dataset: nips
+2025-08-05 10:06:28,856 - INFO - proj_dim: 768
+2025-08-05 10:06:28,856 - INFO - temperature: 0.1
+2025-08-05 10:06:28,856 - INFO - momentum: 0.999
+2025-08-05 10:06:28,857 - INFO - queue_size: 1024
+2025-08-05 10:06:28,857 - INFO - LightGCN_lr: 0.01
+2025-08-05 10:06:28,857 - INFO - contrastive_lr: 0.001
+2025-08-05 10:06:28,857 - INFO - lambda_a: 0.1
+2025-08-05 10:06:28,857 - INFO - lambda_b: 10
+2025-08-05 10:06:28,857 - INFO - feat_dropout: 0.1
+2025-08-05 10:06:28,857 - INFO - item.ranking.topN: [20, 10, 5]
+2025-08-05 10:06:28,857 - INFO - log_interval: 5
+2025-08-05 10:06:28,857 - INFO - k: 1
+2025-08-05 10:06:28,857 - INFO - batshsize: 64
+2025-08-05 10:06:28,857 - INFO - LightGCN: {'n_layer': 3, 'LightGCN_emb_size': 64}
+2025-08-05 10:06:28,857 - INFO - output: ./results/
+2025-08-05 10:06:28,857 - INFO - =====================
+2025-08-05 10:06:32,857 - INFO - *Load Performance*: Top 20, Hit Ratio:0.625, Precision:0.03571, Recall:0.64286, NDCG:0.19443, Top 10, Hit Ratio:0.1875, Precision:0.02143, Recall:0.21429, NDCG:0.08266, Top 5, Hit Ratio:0.0625, Precision:0.01429, Recall:0.07143, NDCG:0.03571
+2025-08-05 10:10:02,249 - INFO - Real-Time Ranking Performance (Top-20 Item Recommendation)
+2025-08-05 10:10:02,250 - INFO - *Load Performance*: Top 20, Hit Ratio:0.625, Precision:0.03571, Recall:0.64286, NDCG:0.19443, Top 10, Hit Ratio:0.1875, Precision:0.02143, Recall:0.21429, NDCG:0.08266, Top 5, Hit Ratio:0.0625, Precision:0.01429, Recall:0.07143, NDCG:0.03571
+2025-08-05 10:10:02,250 - INFO - *Rerank Performance*: Top 20, Hit Ratio:0.625, Precision:0.03571, Recall:0.64286, NDCG:0.38039, Top 10, Hit Ratio:0.5, Precision:0.05714, Recall:0.5, NDCG:0.34627, Top 5, Hit Ratio:0.3125, Precision:0.07143, Recall:0.28571, NDCG:0.27552
+2025-08-05 10:11:22,800 - INFO - Starting training for dataset: nips
+2025-08-05 10:11:22,800 - INFO - Using configuration: nips.yaml
+2025-08-05 10:11:23,319 - INFO - 
+=== Configuration ===
+2025-08-05 10:11:23,320 - INFO - reviewer_profile_bert: dataset/nips/NIPS_reviewer_profile_bert.jsonl
+2025-08-05 10:11:23,320 - INFO - reviewer_write_bert: dataset/nips/NIPS_reviewer_write_bert.jsonl
+2025-08-05 10:11:23,320 - INFO - reviewer_review_bert: dataset/nips/NIPS_reviewer_review_bert.jsonl
+2025-08-05 10:11:23,320 - INFO - submission_bert: dataset/nips/NIPS_submission_bert.jsonl
+2025-08-05 10:11:23,320 - INFO - train: dataset/nips/train.txt
+2025-08-05 10:11:23,320 - INFO - valid: dataset/nips/valid.txt
+2025-08-05 10:11:23,320 - INFO - test: dataset/nips/test.txt
+2025-08-05 10:11:23,320 - INFO - reviewer: dataset/nips/NIPS_reviewers.jsonl
+2025-08-05 10:11:23,320 - INFO - submission: dataset/nips/NIPS_papers.jsonl
+2025-08-05 10:11:23,320 - INFO - dataset: nips
+2025-08-05 10:11:23,320 - INFO - proj_dim: 768
+2025-08-05 10:11:23,320 - INFO - temperature: 0.1
+2025-08-05 10:11:23,320 - INFO - momentum: 0.999
+2025-08-05 10:11:23,320 - INFO - queue_size: 1024
+2025-08-05 10:11:23,320 - INFO - LightGCN_lr: 0.01
+2025-08-05 10:11:23,320 - INFO - contrastive_lr: 0.001
+2025-08-05 10:11:23,320 - INFO - lambda_a: 0.1
+2025-08-05 10:11:23,320 - INFO - lambda_b: 10
+2025-08-05 10:11:23,320 - INFO - feat_dropout: 0.1
+2025-08-05 10:11:23,321 - INFO - item.ranking.topN: [20, 10, 5]
+2025-08-05 10:11:23,321 - INFO - log_interval: 5
+2025-08-05 10:11:23,321 - INFO - k: 1
+2025-08-05 10:11:23,321 - INFO - batshsize: 64
+2025-08-05 10:11:23,321 - INFO - LightGCN: {'n_layer': 3, 'LightGCN_emb_size': 64}
+2025-08-05 10:11:23,321 - INFO - output: ./results/
+2025-08-05 10:11:23,321 - INFO - =====================
+2025-08-05 10:11:27,515 - INFO - *Load Performance*: Top 20, Hit Ratio:0.625, Precision:0.03571, Recall:0.64286, NDCG:0.19443, Top 10, Hit Ratio:0.1875, Precision:0.02143, Recall:0.21429, NDCG:0.08266, Top 5, Hit Ratio:0.0625, Precision:0.01429, Recall:0.07143, NDCG:0.03571
+2025-08-05 10:14:55,157 - INFO - Real-Time Ranking Performance (Top-20 Item Recommendation)
+2025-08-05 10:14:55,157 - INFO - *Load Performance*: Top 20, Hit Ratio:0.625, Precision:0.03571, Recall:0.64286, NDCG:0.19443, Top 10, Hit Ratio:0.1875, Precision:0.02143, Recall:0.21429, NDCG:0.08266, Top 5, Hit Ratio:0.0625, Precision:0.01429, Recall:0.07143, NDCG:0.03571
+2025-08-05 10:14:55,157 - INFO - *Rerank Performance*: Top 20, Hit Ratio:0.625, Precision:0.03571, Recall:0.64286, NDCG:0.405, Top 10, Hit Ratio:0.5, Precision:0.05714, Recall:0.5, NDCG:0.37033, Top 5, Hit Ratio:0.3125, Precision:0.07143, Recall:0.28571, NDCG:0.30188
+2025-08-05 17:42:25,971 - INFO - Starting training for dataset: nips
+2025-08-05 17:42:25,971 - INFO - Using configuration: nips.yaml
+2025-08-05 17:42:26,465 - INFO - 
+=== Configuration ===
+2025-08-05 17:42:26,465 - INFO - reviewer_profile_bert: dataset/nips/NIPS_reviewer_profile_bert.jsonl
+2025-08-05 17:42:26,465 - INFO - reviewer_write_bert: dataset/nips/NIPS_reviewer_write_bert.jsonl
+2025-08-05 17:42:26,465 - INFO - reviewer_review_bert: dataset/nips/NIPS_reviewer_review_bert.jsonl
+2025-08-05 17:42:26,465 - INFO - submission_bert: dataset/nips/NIPS_submission_bert.jsonl
+2025-08-05 17:42:26,465 - INFO - train: dataset/nips/train.txt
+2025-08-05 17:42:26,465 - INFO - valid: dataset/nips/valid.txt
+2025-08-05 17:42:26,465 - INFO - test: dataset/nips/test.txt
+2025-08-05 17:42:26,465 - INFO - reviewer: dataset/nips/NIPS_reviewers.jsonl
+2025-08-05 17:42:26,465 - INFO - submission: dataset/nips/NIPS_papers.jsonl
+2025-08-05 17:42:26,465 - INFO - dataset: nips
+2025-08-05 17:42:26,466 - INFO - proj_dim: 768
+2025-08-05 17:42:26,466 - INFO - temperature: 0.1
+2025-08-05 17:42:26,466 - INFO - momentum: 0.999
+2025-08-05 17:42:26,466 - INFO - queue_size: 1024
+2025-08-05 17:42:26,466 - INFO - LightGCN_lr: 0.01
+2025-08-05 17:42:26,466 - INFO - contrastive_lr: 0.001
+2025-08-05 17:42:26,466 - INFO - lambda_a: 0.1
+2025-08-05 17:42:26,466 - INFO - lambda_b: 10
+2025-08-05 17:42:26,466 - INFO - feat_dropout: 0.1
+2025-08-05 17:42:26,466 - INFO - item.ranking.topN: [20, 10, 5]
+2025-08-05 17:42:26,466 - INFO - log_interval: 5
+2025-08-05 17:42:26,466 - INFO - k: 1
+2025-08-05 17:42:26,466 - INFO - batshsize: 64
+2025-08-05 17:42:26,466 - INFO - LightGCN: {'n_layer': 3, 'LightGCN_emb_size': 64}
+2025-08-05 17:42:26,466 - INFO - output: ./results/
+2025-08-05 17:42:26,466 - INFO - =====================
+2025-08-05 17:42:30,746 - INFO - *Load Performance*: Top 20, Hit Ratio:0.625, Precision:0.03571, Recall:0.64286, NDCG:0.19443, Top 10, Hit Ratio:0.1875, Precision:0.02143, Recall:0.21429, NDCG:0.08266, Top 5, Hit Ratio:0.0625, Precision:0.01429, Recall:0.07143, NDCG:0.03571
+2025-08-05 17:45:33,151 - INFO - Real-Time Ranking Performance (Top-20 Item Recommendation)
+2025-08-05 17:45:33,151 - INFO - *Load Performance*: Top 20, Hit Ratio:0.625, Precision:0.03571, Recall:0.64286, NDCG:0.19443, Top 10, Hit Ratio:0.1875, Precision:0.02143, Recall:0.21429, NDCG:0.08266, Top 5, Hit Ratio:0.0625, Precision:0.01429, Recall:0.07143, NDCG:0.03571
+2025-08-05 17:45:33,151 - INFO - *Rerank Performance*: Top 20, Hit Ratio:0.625, Precision:0.03571, Recall:0.64286, NDCG:0.38157, Top 10, Hit Ratio:0.5, Precision:0.05714, Recall:0.5, NDCG:0.34718, Top 5, Hit Ratio:0.375, Precision:0.08571, Recall:0.35714, NDCG:0.30315
+
